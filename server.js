@@ -16,3 +16,8 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
 app.use(express.static("public"));
+
+
+app.get("/", ({body}, res) => {})
+
+app.get("/stats", ({body}, res) => {})
