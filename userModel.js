@@ -1,0 +1,1 @@
+let k = hashFunc("h");

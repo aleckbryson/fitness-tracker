@@ -18,6 +18,15 @@ app.use(express.json());
 app.use(express.static("public"));
 
 
-app.get("/", ({body}, res) => {})
+app.get("/", (req, res) => {
+    
+})
 
-app.get("/stats", ({body}, res) => {})
+app.get("/stats", ({body}, res) => {
+
+})
+
+app.listen(PORT, () => {
+    console.log(`App running on port ${PORT}!`);
+  });
+  
